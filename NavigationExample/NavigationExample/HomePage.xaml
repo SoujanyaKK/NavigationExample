@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavigationExample.HomePage" BackgroundColor="LightBlue" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+
+        <StackLayout VerticalOptions="Center">
+            <StackLayout>
+                <Label Text="Welcome to Xamarin.Forms" FontAttributes="Bold" FontSize="40" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout  Spacing="10" Margin="80">
+                <Button Text="Login" Clicked="Button_Clicked_1" BackgroundColor="CadetBlue"></Button>
+                <Button Text="Register" Clicked="Button_Clicked_2" BackgroundColor="CadetBlue"></Button>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

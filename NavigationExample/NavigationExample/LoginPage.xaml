@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavigationExample.LoginPage" BackgroundColor="PowderBlue">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout HorizontalOptions="Center" Margin="20">
+                <Label Text="Welcome to Login Page" FontSize="25" FontAttributes="Bold" TextColor="Black"></Label>
+            </StackLayout>
+            
+            <Entry x:Name="username" Placeholder="Enter Your Username"></Entry>
+            <Entry x:Name="password" Placeholder="Enter Your Password" IsPassword="True"></Entry>
+            <StackLayout Orientation="Horizontal" Spacing="20" Margin="40">
+                <Button Text="Login" Clicked="Button_Clicked" BackgroundColor="CadetBlue"></Button>
+                <Button Text="Back" Clicked="Button_Clicked_1" BackgroundColor="CadetBlue"></Button>
+
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
